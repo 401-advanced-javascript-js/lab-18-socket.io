@@ -6,13 +6,19 @@
 ### Author: Jagdeep Singh
 
 ### Links and Resources
-* [submission PR]()
+* [submission PR](https://github.com/401-advanced-javascript-js/lab-18-socket.io/pull/1)
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number, ex 3001
+* `PORT` - Port Number, ex 3000
+* `SERVER_URL` - URL of server once started/deployed
+
 
 #### Running the app
+* Set .env variables
+* start server/server.js
+* start logger/logger.js
+* start app/app.js [:filepath]
 
   
 #### Tests

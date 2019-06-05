@@ -1,6 +1,6 @@
 'use strict';
-
-const socketIO = require('socket.io')(3000);
+const PORT = process.env.PORT || 3000;
+const socketIO = require('socket.io')(PORT);
 const events = require('../utils/events.js');
 
 socketIO.on('connection', (socket) => {
