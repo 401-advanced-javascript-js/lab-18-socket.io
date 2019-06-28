@@ -1,0 +1,9 @@
+{
+  "source": {
+    "include" : ["./app", "./logger", "./server", "./utils"]
+  },
+  "opts": {
+    "destination": "./docs/",
+    "recurse": true
+  }
+}
